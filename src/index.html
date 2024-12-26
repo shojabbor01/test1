@@ -7,12 +7,36 @@
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                
+    <header class="sm:w-[98%]">
+        <nav class="sm:flex justify-around items-center">
+            <img src="./лого.png" alt="">
+            <ul class="sm:hidden 2xl:flex items-center gap-10 font-bold text-[25px]">
+                <p>Обо мне</p>
+                <p>Занятия</p> 
+                <p>Запись</p>    
             </ul>
+            <h1 class="2xl:hidden sm:block text-[25px] font-bold">menu</h1>
         </nav>
+        <section class="sm:flex flex-col px-2 2xl:flex-row justify-around items-center">
+            <img src="./Гитарист + фигуры.png" alt="">
+            <aside class="sm:my-5 text-center">
+                <img src="./Иконки.png" alt="">
+                <h1 class="sm:text-[35px] font-bold text-start">
+                    Я Виктор
+                </h1>
+                <p class="sm:text-[25px]">
+                    Репетитор игры на гитаре с семилетним опытом преподавания
+                </p>
+                <div class="sm:flex gap-3 h-[50px]">
+                    <button class="sm:py-3 px-6 text-[13px] bg-blue-500 rounded-xl self-center">
+                        Забронировать 
+                        урок
+                    </button>
+                    <img src="./вопрос.png" alt="">
+                </div>
+            </aside>
+
+        </section>
     </header>
     
 </body>
